@@ -1,102 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Syalwa Khumaira</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #eef2f7;
-            padding: 20px;
-        }
-
-        .container {
-            background: white;
-            max-width: 500px;
-            width: 100%;
-            padding: 40px 30px;
-            text-align: center;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px #00000015;
-        }
-
-        h1 {
-            color: #1d3557;
-            letter-spacing: 1px;
-        }
-
-        .subtitle {
-            color: #777;
-            margin-bottom: 30px;
-        }
-
-        .menu a {
-            display: block;
-            background: #1d3557;
-            color: white;
-            text-decoration: none;
-            padding: 17px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        .menu a:hover {
-            background: #457b9d;
-            transform: translateY(-3px);
-        }
-
-        footer {
-            margin-top: 25px;
-            color: #999;
-            font-size: 12px;
-        }
-    </style>
+    <title>Syalwa Khumaira | Main Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
+    <main class="container">
 
-        <h1>SYALWA KHUMAIRA</h1>
+        <header class="header">
+            <p class="subtitle">PERSONAL DOCUMENTS</p>
+            <h1>SYALWA <span>KHUMAIRA.</span></h1>
+            <p class="description">
+                Selamat datang di halaman personal saya.
+                Access my profile and documents below.
+            </p>
+        </header>
 
-        <p class="subtitle">
-            Selamat Datang di Halaman Portofolio Saya
-        </p>
+        <section class="menu">
 
-        <div class="menu">
-
-            <a href="https://docs.google.com/document/d/11X9_DfAOB2VnPRsyGYvLqLYJmi5EDvxA_Lqjv-k4Avw/edit?usp=drivesdk" target="_blank">
-                Surat Lamaran Kerja ↗
+            <a href="https://docs.google.com/document/d/11X9_DfAOB2VnPRsyGYvLqLYJmi5EDvxA_Lqjv-k4Avw/edit?usp=drivesdk"
+               target="_blank" rel="noopener noreferrer" class="menu-button">
+                <span class="number">01</span>
+                <span class="button-text">SURAT LAMARAN PEKERJAAN</span>
+                <span class="arrow">↗</span>
             </a>
 
-            <a href="https://syalwakhumaira1-svg.github.io/syalwa-cv-/" target="_blank">
-                CV Website ↗
+            <a href="https://syalwakhumaira1-svg.github.io/syalwa-cv-/"
+               target="_blank" rel="noopener noreferrer" class="menu-button">
+                <span class="number">02</span>
+                <span class="button-text">CV WEBSITE</span>
+                <span class="arrow">↗</span>
             </a>
 
-            <a href="https://canva.link/035o2cz6irlrm1d" target="_blank">
-                CV PPT ↗
+            <a href="https://canva.link/035o2cz6irlrm1d"
+               target="_blank" rel="noopener noreferrer" class="menu-button">
+                <span class="number">03</span>
+                <span class="button-text">CV PPT</span>
+                <span class="arrow">↗</span>
             </a>
 
-        </div>
+        </section>
 
         <footer>
-            © 2026 Syalwa Khumaira
+            <p>© 2026 SYALWA KHUMAIRA</p>
+            <p>PERSONAL PAGE <span>•</span> ALL RIGHTS RESERVED</p>
         </footer>
 
-    </div>
+    </main>
 
 </body>
 </html>
